@@ -196,6 +196,8 @@ function TextArea({ mode }) {
     padding: "5px",
     backgroundColor: mode === "dark" ? "#1A1A1A" : "#fff",
     color: mode === "dark" ? "#FFF" : "#000",
+    maxHeight: "500px",
+    overflowY: "auto",
   };
 
   const wrapperStyle = {
