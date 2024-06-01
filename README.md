@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+# Scribble
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Scribble, an advanced text analysis and writing platform designed to assist writers, developers, and researchers in creating, analyzing, and enhancing their textual content. Built with ReactJS and Django and integrated with cutting-edge language learning models (LLMs), Scribble provides a versatile environment for diverse writing and programming tasks.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+### Text Editors
+- **Draft JS Editor**: Powered by Draft JS, this editor offers robust tools for textual composition and formatting. It is tailored for writers focusing on content creation and editing.
+- **Monaco Editor**: Geared towards developers, this editor features IntelliSense, which supports efficient coding and various themes to enhance user experience.
 
-### `npm start`
+### Language Learning Models
+- **LLMs Integration**: Scribble integrates several LLMs, including Gemini Pro by Google, LLAMA 3 by Meta, and GPT-3.5 by OpenAI, to perform a range of NLP tasks such as text summarization and question answering.
+- **Custom Queries**: Users can engage in custom interactions with these models via the "General" task option to address specific queries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Text Analysis
+- **Comprehensive Analysis**: Offers detailed text analysis, providing statistics like word count, character count, lexical density, and readability scores.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Additional Features
+- **Text to Speech**: Convert text to speech to hear how your content sounds. Customizable voice, rate, and pitch settings are available.
+- **Themes**: Choose between light and dark themes to suit your visual preference while writing.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Technologies Used
+- **Frontend**: ReactJS with npm packages including `draftjs` and `monaco-editor`.
+- **Backend**: Django, handling REST API communications and LLM requests.
