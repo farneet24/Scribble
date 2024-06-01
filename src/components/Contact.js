@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import { useState } from "react";
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
@@ -19,22 +18,36 @@ function Contact(props) {
   });
 
   const handleSubmit = (e) => {
+    e.preventDefault(); // Prevent the default form submission behavior
+
     // Make a POST request to Formspree with the form data
-    axios
-      .post("https://formspree.io/f/mrgvyjrd", formData)
-      .then(() => {
+    fetch("https://formspree.io/f/mrgvyjrd", {
+        method: "POST",
+        body: JSON.stringify(formData),
+        headers: {
+            'Content-Type': 'application/json',
+            'Accept': 'application/json', // Ensure to handle the response as JSON
+        },
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json(); // Parse JSON response
+    })
+    .then(() => {
         // Reset the form data
         setFormData({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
         });
-      })
-      .catch((error) => {
+    })
+    .catch((error) => {
         console.log(error);
-      });
-  };
+    });
+};
 
   const handleChange = (e) => {
     setFormData({
