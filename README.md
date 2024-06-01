@@ -22,3 +22,14 @@ Welcome to Scribble, an advanced text analysis and writing platform designed to 
 ## Technologies Used
 - **Frontend**: ReactJS with npm packages including `draftjs` and `monaco-editor`.
 - **Backend**: Django, handling REST API communications and LLM requests.
+
+## Access
+Visit the website: [Scribble](https://scribble-farneet.vercel.app/)
+
+## Collaboration
+For collaboration inquiries, contact via [LinkedIn](https://www.linkedin.com/in/farneet-singh-6b155b208/).
+
+## License
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+Licensed under the MIT License.
