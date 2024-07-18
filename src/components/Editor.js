@@ -75,7 +75,7 @@ function TextArea({ mode }) {
 
   const llms = {
     gemini: "Gemini Pro",
-    gpt: "GPT 3.5",
+    gpt: "GPT 4o Mini",
     llama: "LLAMA 3",
   };
 
