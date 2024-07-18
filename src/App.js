@@ -61,11 +61,6 @@ function App() {
               exact
               path="/"
               element={
-                // <TextForm
-                //   showAlert={showAlert}
-                //   heading="Wordify - Your Grammar Expert"
-                //   mode={mode}
-                // />
                 <TextArea mode={mode} />
               }
             ></Route>
