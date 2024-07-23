@@ -27,7 +27,7 @@ Welcome to Scribble, an advanced text analysis and writing platform designed to 
 Visit the website: [Scribble](https://scribble-farneet.vercel.app/)
 
 ## Collaboration
-For collaboration inquiries, contact via [LinkedIn](https://www.linkedin.com/in/farneet-singh-6b155b208/). You can also checkout the [backend code][https://github.com/farneet24/Scribble-Backend].
+For collaboration inquiries, contact via [LinkedIn](https://www.linkedin.com/in/farneet-singh-6b155b208/). You can also checkout the [backend code](https://github.com/farneet24/Scribble-Backend).
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
