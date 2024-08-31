@@ -116,7 +116,7 @@ function TextArea({ mode }) {
 
     try {
       setResponse("");
-      const response = await fetch("https://web-production-d55d.up.railway.app/langchain/", {
+      const response = await fetch("https://web-production-6be7.up.railway.app/langchain/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -140,7 +140,7 @@ function TextArea({ mode }) {
     }
 
     try {
-      const response = await fetch("https://web-production-d55d.up.railway.app/analysis/", {
+      const response = await fetch("https://web-production-6be7.up.railway.app/analysis/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
