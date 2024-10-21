@@ -35,6 +35,6 @@ Licensed under the MIT License.
 
 ## Contributors
 
-I would like to thank [Gaurav Kumar Meena](https://github.com/gauravmeee), for their efforts and contributions to this project:
+I would like to thank [Gaurav Kumar Meena](https://github.com/gauravmeee), for his efforts and contributions to this project:
 
 
