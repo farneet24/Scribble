@@ -32,3 +32,9 @@ Visit the website: [Scribble](https://scribble-farneet.vercel.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Licensed under the MIT License.
+
+## Contributors
+
+I would like to thank [Gaurav Kumar Meena](https://github.com/gauravmeee), for their efforts and contributions to this project:
+
+
